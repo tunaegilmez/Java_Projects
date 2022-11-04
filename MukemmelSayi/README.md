@@ -1,0 +1,2 @@
+# MukemmelSayi
+ www.Patika.dev
