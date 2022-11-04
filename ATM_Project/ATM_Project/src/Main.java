@@ -16,7 +16,7 @@ public class Main {
 
             if (userName.equals("patika") && password.equals("dev123")){
                 System.out.println("\n-------------------");
-                System.out.println("\tHOŞGELDİNİZ");
+                System.out.println("\tHOŞGELDİNİZ ARKADAŞLAR");
                 System.out.println("-------------------");
                 do {
                     System.out.println("\tİŞLEMLER");
@@ -27,11 +27,11 @@ public class Main {
                     System.out.print("Seçiminiz : ");
                     select = scn.nextInt();
                     if (select == 1){
-                        System.out.print("Yatırmak istediğiniz miktar : ");
+                        System.out.print("Yatırmak istediğiniz miktar giriniz : ");
                         int paraYatirma = scn.nextInt();
                         bakiye += paraYatirma ;
                     } else if (select == 2) {
-                        System.out.println("Çekmek istediğiniz miktar : ");
+                        System.out.println("Çekmek istediğiniz miktar giriniz : ");
                         int paraCekme = scn.nextInt();
                         if (paraCekme > bakiye){
                             System.out.println("\tYETERSİZ BAKİYE!");
@@ -39,7 +39,7 @@ public class Main {
                             bakiye -= paraCekme;
                         }
                     } else if (select == 3) {
-                        System.out.println("Güncel Bakiyeniz : "+bakiye);
+                        System.out.println("Güncel Bakiyenizi Giriniz : "+bakiye);
                     }else if (select == 4){
                         System.out.println("ÇIKIŞ YAPILIYOR...");
                     }else {
